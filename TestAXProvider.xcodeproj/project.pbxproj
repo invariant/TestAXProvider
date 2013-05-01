@@ -13,6 +13,8 @@
 		011752D01730F7BD003D9EDF /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 011752CE1730F7BD003D9EDF /* Credits.rtf */; };
 		011752D31730F7BD003D9EDF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 011752D21730F7BD003D9EDF /* AppDelegate.m */; };
 		011752D61730F7BE003D9EDF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 011752D41730F7BE003D9EDF /* MainMenu.xib */; };
+		011752DD1730F969003D9EDF /* Untitled.png in Resources */ = {isa = PBXBuildFile; fileRef = 011752DC1730F969003D9EDF /* Untitled.png */; };
+		0158EAB117310B9600593971 /* SpecialImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0158EAB017310B9600593971 /* SpecialImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,9 @@
 		011752D11730F7BD003D9EDF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		011752D21730F7BD003D9EDF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		011752D51730F7BE003D9EDF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		011752DC1730F969003D9EDF /* Untitled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Untitled.png; sourceTree = "<group>"; };
+		0158EAAF17310B9600593971 /* SpecialImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpecialImageView.h; sourceTree = "<group>"; };
+		0158EAB017310B9600593971 /* SpecialImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpecialImageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +91,8 @@
 				011752D21730F7BD003D9EDF /* AppDelegate.m */,
 				011752D41730F7BE003D9EDF /* MainMenu.xib */,
 				011752C61730F7BD003D9EDF /* Supporting Files */,
+				0158EAAF17310B9600593971 /* SpecialImageView.h */,
+				0158EAB017310B9600593971 /* SpecialImageView.m */,
 			);
 			path = TestAXProvider;
 			sourceTree = "<group>";
@@ -93,6 +100,7 @@
 		011752C61730F7BD003D9EDF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				011752DC1730F969003D9EDF /* Untitled.png */,
 				011752C71730F7BD003D9EDF /* TestAXProvider-Info.plist */,
 				011752C81730F7BD003D9EDF /* InfoPlist.strings */,
 				011752CB1730F7BD003D9EDF /* main.m */,
@@ -156,6 +164,7 @@
 				011752CA1730F7BD003D9EDF /* InfoPlist.strings in Resources */,
 				011752D01730F7BD003D9EDF /* Credits.rtf in Resources */,
 				011752D61730F7BE003D9EDF /* MainMenu.xib in Resources */,
+				011752DD1730F969003D9EDF /* Untitled.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,6 +177,7 @@
 			files = (
 				011752CC1730F7BD003D9EDF /* main.m in Sources */,
 				011752D31730F7BD003D9EDF /* AppDelegate.m in Sources */,
+				0158EAB117310B9600593971 /* SpecialImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +307,7 @@
 				011752DB1730F7BE003D9EDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
